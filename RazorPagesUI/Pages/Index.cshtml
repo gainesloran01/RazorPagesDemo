@@ -1,0 +1,22 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<form method="get">
+    <div class="input-group">
+        
+        <div class="input-group-append">
+            <button type="submit" class="btn btn-primary">Search</button>
+
+        </div>
+    </div>
+
+</form>
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to @Model.City</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
